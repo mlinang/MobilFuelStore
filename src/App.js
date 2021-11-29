@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import './bootstrap.css';
+import FormLogin from './components/FormLogin';
 
 function App() {
+  const datos_empresa = {
+    compania: "Mobil",
+    division: "Fuel Store",
+    direccion: "Av 000 No. 000 - 000",
+    telefono: "+57 5 000 0000",
+    ciudad: "Valledupar - Colombia",
+  
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <FormLogin />
+      <Footer {...datos_empresa} />
     </div>
   );
 }
+
 
 export default App;
