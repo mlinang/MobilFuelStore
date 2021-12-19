@@ -1,0 +1,64 @@
+*{
+    font-size: 12px;
+}
+
+
+/* INICIO ESTILOS MAIN */
+.card-body{
+    height: 28vh;
+}
+.col{
+
+    min-width: 330px;
+    min-height: 310px;
+
+
+}
+.infoperfil{
+    height: 30vh;
+
+}
+.infoperfil input{
+    border: 0px;
+}
+.resumen .col{
+/*     padding: 1vw; */
+    width: 20vw;
+}
+.vehiculos{
+
+    overflow-y:scroll; ;
+}
+.thistorial{
+
+    overflow-y:scroll;
+    height: 22vh;
+}
+.titulos{
+    font-weight:bold;
+}
+.bio-row{
+    padding: 2px;
+    text-align: left;
+
+}
+.infoperfil label{
+    display:inline-block;
+    width: 15vh;
+}
+
+.bio-row button{
+    color: #1e00c5;
+
+}
+.medio{
+    font-size: 16px;
+}
+.grande{
+    font-size: 22px;
+}
+.titulo{
+    font-size: 30px;
+}
+
+/* fin */
